@@ -22,7 +22,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid white;
+    border-radius: 80%; */
 }
+
+/* .animateArea {
+    width:330px;
+    height:230px;
+    border:1px solid #ffffff;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    margin:auto;
+    border-radius:50%;
+} */
+
+.animateCircle {
+  width:15px;
+  height:15px;
+  background:#705cf6;
+  border-radius:50%;
+  position:absolute;
+  animation: circle 10s linear infinite;
+}
+
+@keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }
 
 .augustoFoto {
     height: 300px;
@@ -41,6 +76,30 @@
 }
 
 .titleColor {
-    color: #3D93FF;
-    /* color: #f8c662; */
+    /* color: #3D93FF; */
+    color: #705cf6;
+}
+
+.typeWriterText {
+    font-size: 30px;
+}
+
+.btnCurriculum {
+    background-color: #705cf6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    /* font-family: 'Montserrat', arial, sans-serif; */
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: grab;
+}
+
+.downIcon {
+    width: 15px;
 }
