@@ -1,21 +1,23 @@
 .header {
-    background-color: #11182757;
+    /* background-color: #11182757; */
+    background-color: #111827;
     position: fixed; 
     top: 0; 
-    left: 0; 
-    width: 100%; 
+    /* left: 0;  */
+    width: 100%;
     height: 90px;
     /* z-index: 999px;  */
     /* box-shadow: #ffffff; */
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* padding: 2rem; */
+    justify-content: space-around;
+    /* padding: 0m; */
+      
 }
 
-.icons {
+.icons {    
+    /* width: 30%; */
     /* background-color: yellow; */
-    width: 30%;
     display: flex;
     justify-content: flex-end;
 }
