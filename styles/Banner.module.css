@@ -2,7 +2,7 @@
     display: flex;
     min-height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     /* background-color: rgba(255, 255, 0, 0.24); */
     width: 100%;
 }
@@ -10,59 +10,38 @@
 .contentBanner {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    /* justify-content: flex-start; */
-    width: 50%;
+    /* width: 50%; */
     /* background-color: rgba(0, 0, 255, 0.329); */
 }
-
-.imageBannerArea {
-    width: 50%;
-    /* background-color: rgba(255, 0, 149, 0.178); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid white;
-    border-radius: 80%; */
-}
-
-/* .animateArea {
-    width:330px;
-    height:230px;
-    border:1px solid #ffffff;
-    position:absolute;
-    top:0; bottom:0; left:0;right:0;
-    margin:auto;
-    border-radius:50%;
-} */
-
-.animateCircle {
-  width:15px;
-  height:15px;
-  background:#705cf6;
-  border-radius:50%;
-  position:absolute;
-  animation: circle 10s linear infinite;
-}
-
-@keyframes circle{
-    0%{
-      transform:rotate(0deg)
-                translate(-165px)
-                rotate(0deg);
-    
-    }
-    100%{
-      transform:rotate(360deg)
-                translate(-165px)
-                rotate(-360deg);
-    }
-  }
 
 .augustoFoto {
     height: 300px;
     width: auto;
     border-radius: 50%;
+}
+
+.augustoFoto:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 .hello {
@@ -76,28 +55,33 @@
 }
 
 .titleColor {
-    /* color: #3D93FF; */
-    color: #705cf6;
+    color: #705cf6;    
 }
 
 .typeWriterText {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .btnCurriculum {
-    background-color: #705cf6;
+    /* background-color: #705cf6; */
+    background-image: linear-gradient(to bottom, #705cf6, #715cf6bd);
     color: white;
     border-radius: 5px;
     border: none;
-    padding: 8px 20px;
+    padding: 9px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.2rem;
     /* font-family: 'Montserrat', arial, sans-serif; */
     font-weight: 600;
     margin-top: 20px;
     cursor: grab;
+}
+
+.btnCurriculum:hover {
+    /* background-color: #705cf6; */
+    background-image: linear-gradient(to bottom, #715cf6bd, #705cf6);
 }
 
 .downIcon {
