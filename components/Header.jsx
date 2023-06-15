@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Header() {
     return (        
         <header className={ styles.header }>
-            <Image src={ logo } alt='logo-augusto'/>
+            <Image src={ logo } alt='logo-augusto' />
             <div className={ styles.icons }>
                 <Image src={ linkedinImg } alt='linkedin' className={ styles.icon }/>
                 <Image src={ github } alt='github' className={ styles.icon }/>
