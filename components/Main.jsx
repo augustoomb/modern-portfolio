@@ -1,16 +1,14 @@
 import styles from '../styles/Main.module.css'
 import Banner from './Banner'
+import Projects from './Projects'
+import Skills from './Skills'
 
 export default function Main() {
     return (
         <main className={styles.main}>
             <Banner />
-            <div className="styles.skills">
-                <h2>Skills</h2>
-            </div>
-            <div className="styles.projects">
-                <h2>Projects</h2>
-            </div>
+            <Skills />
+            <Projects />
         </main>
     )
 }
