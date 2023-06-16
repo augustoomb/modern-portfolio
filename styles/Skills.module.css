@@ -1,0 +1,14 @@
+.skillsArea {
+    background-color: rgba(165, 42, 42, 0.479);
+    width: 100%;
+}
+
+.titleSkill {
+    text-align: center;
+}
+
+.skillsData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
