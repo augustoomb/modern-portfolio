@@ -1,0 +1,19 @@
+.skillArea {
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #111827;
+    margin: 0px 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.img {
+    height: 50px;
+    width: auto;
+}
+
