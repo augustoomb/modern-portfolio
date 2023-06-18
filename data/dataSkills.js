@@ -12,6 +12,7 @@ import css from '../images/css-icon.svg';
 import html from '../images/html-icon.svg';
 import docker from '../images/docker-icon.svg';
 import swagger from '../images/swagger-icon.svg';
+import bootstrap from '../images/bootstrap-icon.svg';
 
 const arrSkills = [
     { "logo": html, "name": 'HTML' },
@@ -28,6 +29,7 @@ const arrSkills = [
     { "logo": python, "name": 'Python' },
     { "logo": docker, "name": 'Docker' },
     { "logo": swagger, "name": 'Swagger' },
+    { "logo": bootstrap, "name": 'Bootstrap' },
 ] 
 
 export default arrSkills;
