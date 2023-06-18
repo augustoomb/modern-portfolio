@@ -12,6 +12,12 @@
     height: 100px;
 }
 
+.skillArea:hover {
+    background-color: #192339;
+    color: white;
+    border: solid 1px white
+}
+
 .img {
     height: 50px;
     width: auto;
