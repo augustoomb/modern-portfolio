@@ -1,14 +1,16 @@
 .skillsArea {
-    background-color: rgba(165, 42, 42, 0.479);
-    width: 100%;
+    /* background-color: rgba(165, 42, 42, 0.479); */
+    width: 50%;
 }
 
 .titleSkill {
     text-align: center;
+    font-size: xx-large;
 }
 
 .skillsData {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
