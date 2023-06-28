@@ -15,21 +15,21 @@ import swagger from '../images/swagger-icon.svg';
 import bootstrap from '../images/bootstrap-icon.svg';
 
 const arrSkills = [
-    { "logo": html, "name": 'HTML' },
+    { "logo": bootstrap, "name": 'Bootstrap' },
     { "logo": css, "name": 'CSS' },
-    { "logo": reactLogo, "name": 'React' },
-    { "logo": nodejs, "name": 'Node.js' },
-    { "logo": mysql, "name": 'MySQL' },
-    { "logo": nextjs, "name": 'Next.js' },
-    { "logo": js, "name": 'JavaScript' },
-    { "logo": ts, "name": 'TypeScript' },
-    { "logo": mongo, "name": 'MongoDB' },
+    { "logo": docker, "name": 'Docker' },
+    { "logo": html, "name": 'HTML' },
     { "logo": figma, "name": 'Figma' },
     { "logo": git, "name": 'Git' },
+    { "logo": js, "name": 'JavaScript' },
+    { "logo": mongo, "name": 'MongoDB' },
+    { "logo": mysql, "name": 'MySQL' },
+    { "logo": nextjs, "name": 'Next.js' },
+    { "logo": nodejs, "name": 'Node.js' },
     { "logo": python, "name": 'Python' },
-    { "logo": docker, "name": 'Docker' },
+    { "logo": reactLogo, "name": 'React' },
     { "logo": swagger, "name": 'Swagger' },
-    { "logo": bootstrap, "name": 'Bootstrap' },
+    { "logo": ts, "name": 'TypeScript' },
 ] 
 
 export default arrSkills;
