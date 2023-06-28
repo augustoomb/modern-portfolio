@@ -29,7 +29,7 @@ export default function Banner() {
             </div>
             <div className={ styles.imageBannerArea }>
                 {/* <div className={ styles.animateArea }> */}
-                    <div className={ styles.animateCircle } />
+                    {/* <div className={ styles.animateCircle } /> */}
                     <Image src={ augustoImg } alt='augusto-foto' className={ styles.augustoFoto }/>   
                 {/* </div>                 */}
             </div>
