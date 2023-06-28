@@ -1,0 +1,16 @@
+.projectsArea {
+    /* background-color: rgba(201, 186, 51, 0.479); */
+    width: 100%;
+}
+
+.titleProjects {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.projectsData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

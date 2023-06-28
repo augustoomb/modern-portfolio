@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #FBFBFB;
     color: #111827;
     margin: 15px 15px;
     width: 100px;
@@ -13,9 +13,11 @@
 }
 
 .skillArea:hover {
-    background-color: #192339;
-    color: white;
-    border: solid 1px white
+    /* background-color: #705cf6; */
+    background-color: #f7b900c5;
+    color: #111827;
+    /* border: solid 1px white; */
+    transform: scale(1.2);
 }
 
 .img {

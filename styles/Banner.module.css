@@ -55,7 +55,8 @@
 }
 
 .titleColor {
-    color: #705cf6;    
+    /* color: #3d93ff;     */
+    color: #F7BA00;    
 }
 
 .typeWriterText {
@@ -63,9 +64,11 @@
 }
 
 .btnCurriculum {
-    /* background-color: #705cf6; */
-    background-image: linear-gradient(to bottom, #705cf6, #715cf6bd);
-    color: white;
+    /* background-image: linear-gradient(to bottom, #3D93FF, #3d94ffd7); */
+    background-image: linear-gradient(to bottom, #F7BA00, #f7b90093);
+    box-shadow: 0 1px 3px 0 #F7BA00, 0 1px 3px 0 #f7b90093;
+    /* background-color: #3D93FF; */
+    color: #111827;
     border-radius: 5px;
     border: none;
     padding: 9px 20px;
@@ -80,8 +83,8 @@
 }
 
 .btnCurriculum:hover {
-    /* background-color: #705cf6; */
-    background-image: linear-gradient(to bottom, #715cf6bd, #705cf6);
+    /* background-image: linear-gradient(to bottom, #715cf6bd, #705cf6); */
+    background-image: linear-gradient(to bottom, #f7b90093, #F7BA00);
 }
 
 .downIcon {
