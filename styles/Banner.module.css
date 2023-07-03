@@ -5,6 +5,9 @@
     justify-content: space-evenly;
     /* background-color: rgba(255, 255, 0, 0.24); */
     width: 100%;
+
+    position: relative;
+    /* z-index: 1; */
 }
 
 .contentBanner {
@@ -12,14 +15,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /* width: 50%; */
+    width: 50%;
     /* background-color: rgba(0, 0, 255, 0.329); */
+
+    position: relative;
+    /* z-index: 10; */
 }
 
 .augustoFoto {
     height: 300px;
     width: auto;
     border-radius: 50%;
+    position: relative;
+    z-index: 10;
 }
 
 .augustoFoto:hover {
