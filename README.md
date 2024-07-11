@@ -1,5 +1,5 @@
 
-![2-2024-07-11_14 16 55-ezgif com-video-to-gif-converter](https://github.com/augustoomb/modern-portfolio/assets/20017011/99439db9-fa34-44d1-a4b9-45fa30bcb13a)
+![2-2024-07-11_14 16 55-ezgif com-video-to-gif-converter (2)](https://github.com/augustoomb/modern-portfolio/assets/20017011/c9b62d9c-0497-4f42-9899-ecdd2d8d7405)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
